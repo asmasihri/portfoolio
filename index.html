@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <script src="https://kit.fontawesome.com/808176d106.js" crossorigin="anonymous"></script>
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portf olio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">My Portfolio</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fas fa-home nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user-tie nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-file-code nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="fas fa-file-code nav__icon"></i> qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="fas fa-file-code nav__icon"></i> services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-file-code nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+
+
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="far fa-moon change__theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+
+                        <a href="https://www.linkedin.com/in/asma-sihri-a77092213" target="_blank" class="home__social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="tel:+212701175165" target="_blank" class="home__social-icon">
+                            <i class="fab fa-whatsapp-square"></i>
+                        </a>
+                        <a href="https://www.github.com/asmasihri" target="_blank" class="home__social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 190 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                          
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm ASMA </h1>
+                        <h3 class="home__subtitle">IT engineer student</h3>
+                        <p class="home__description">Second year at ENSMR-Rabat . Looking for a PFA intership for a period of one month . </p>
+
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#About" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fas fa-sort-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <p class="section__subtitle">My Introduction</p>
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        My name is SIHRI ASMA, I am 21 years old, engineering student at ENSMR-Rabat , Morocco. I have worked in Mobile Development , passionate about graphic design. </p>
+                    <div class="about__info">
+                        <div>
+                            <div class="about__info-title">01+</div>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <div class="about__info-title">10+</div>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                    </div>
+                    <div class="about_buttons">
+                        <a download href="assets/pdf/cvvv.pdf" class="button button--flex">
+                            ASMA's Resume<i class="fas fa-cloud-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <p class="section__subtitle">My technical level</p>
+            <div class="skills__container container grid">
+                <!--==================== SKILL 1 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="fas fa-code skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>
+                            <span class="skills__subtitle">More than 1 year</span>
+                        </div>
+                        <i class="fas fa-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h4 class="skills__name">HTML</h4>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h4 class="skills__name">CSS</h4>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h4 class="skills__name">JavaScript</h4>
+                                <span class="skills__number">60%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--==================== SKILL 2 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="fas fa-code skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="skills__subtitle">More than 1 years</span>
+                        </div>
+                        <i class="fas fa-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h4 class="skills__name">dart</h4>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__dart"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+
+                                <h4 class="skills__name">Spring Boot</h4>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__java"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SKILL 3 ====================-->
+                <div></div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <p class="section__subtitle">My personal journey</p>
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification__icon"></i> Education
+                    </div>
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification__icon"></i> Work
+                    </div>
+                </div>
+                <div class="qualification__sections">
+                    <!-- Education -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div class="qualification__card">
+
+                                <span class="qualification__subtitle">REDA SLAOUI</span>
+                                <div class="qualification_calendar">
+                                    <i class="far fa-calendar-alt"></i> 2018 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div class="qualification__card">
+                                <h3 class="qualification__title">Software engineering</h3>
+                                <span class="qualification__subtitle">ENSMR</span>
+                                <div class="qualification_calendar">
+                                    <i class="far fa-calendar-alt"></i> 2020- 2021
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Work -->
+                    <div class="qualification__content" data-content id="work">
+                        <div class="qualification__data">
+                            <div class="qualification__card">
+                                <h3 class="qualification__title">Freelancer</h3>
+                                <span class="qualification__subtitle">ENSMR</span>
+                                <div class="qualification_calendar">
+                                    <i class="far fa-calendar-alt"></i> 2010 - 2021
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <p class="section__subtitle">What i offer</p>
+            <div class="services__container container grid">
+                <!-- service 1-->
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-pen-nib services__icon"></i>
+                        <h3 class="services__title">
+                            User Interface Design</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">User Interface Design</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Adobe Photoshop</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Adobe Illustrator</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Adobe XD</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Figma</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- service 2-->
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-pen-nib services__icon"></i>
+                        <h3 class="services__title">
+                            Industry Knowledge</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Industry Knowledge</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p> Machine Learning</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>deep learning usign flutter</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- service 2-->
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-pen-nib services__icon"></i>
+                        <h3 class="services__title">
+                            Tools & Technologies</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Tools & Technologies</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>Mobile Development - Flutter, Firebase</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>UML , MySQL,NoSQL </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-pen-nib services__icon"></i>
+                        <h3 class="services__title">
+                            Tools & Technologies</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="fas fa-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Other Skills</h4>
+                            <i class="fas fa-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p>LaTeX, Git, Linux </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="far fa-check-circle services__modal-icon"></i>
+                                    <p> Programming Languages
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <p class="section__subtitle">Most recent work</p>
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- portfolio 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img class="portfolio__img" src="assets/img/gig1.png" alt="">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title"> Service Application</h3>
+                            <p class="portfolio__description">
+                                Java</p>
+
+                            <a href="serviceapp/html.html" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img class="portfolio__img" src="assets/img/quizz.png" alt="">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title"> Quiz Application</h3>
+                            <p class="portfolio__description">
+                                Java</p>
+
+                            <a href="quizapp/html.html" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img class="portfolio__img" src="assets/img/portfolio1.jpg" alt="">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">E-Commerce Application</h3>
+                            <p class="portfolio__description">
+                                Running your own business gives you freedom in a lot of ways. And for eCommerce businesses, one of the freedoms many entrepreneurs value most is the freedom from that daily commute.</p>
+
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- portfolio 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img class="portfolio__img" src="assets/img/portfolio2.jpg" alt="">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">UI design</h3>
+                            <p class="portfolio__description">UI design for movies application</p>
+                            <a href="https://www.canva.com/design/DAErs_15jPA/Y2RWujGPpK9Nbh0SUhYD6A/view" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img class="portfolio__img" src="assets/img/Home.png" alt="">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Web Application</h3>
+                            <p class="portfolio__description">Travel Management Application</p>
+                            <a href="webapp/webapp.html" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fas fa-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-top">
+            <i class="fas fa-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>

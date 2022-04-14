@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.logo {
+    width: 220px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.video {
+    margin-top: 20px;
+}
